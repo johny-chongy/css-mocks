@@ -11,8 +11,6 @@ body {
   height: 400px;
   background-color: red;
   position: relative;
-  top: 0;
-  left: 0;
 }
 
 .two {
