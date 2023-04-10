@@ -5,10 +5,14 @@ body {
   position: relative;
 }
 
+
 .one {
   width: 400px;
   height: 400px;
   background-color: red;
+  position: relative;
+  top: 0;
+  left: 0;
 }
 
 .two {
@@ -27,4 +31,12 @@ body {
   width: 100px;
   height: 100px;
   background-color: blue;
+}
+
+.two, .three, .four {
+  position: relative;
+  top: 3em;
+  bottom: 3em;
+  right: 3em;
+  left: 3em;
 }
